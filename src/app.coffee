@@ -10,7 +10,7 @@ class App
     gui          = new Gui()
     localStorage = new LocalStorage("app")
     glue         = new Glue(useCase, gui, localStorage)
-    
+
     useCase.start()
 
 new App()

@@ -1,5 +1,5 @@
 class UseCase
   constructor: ->
-    
+
   start: =>
-    
+
